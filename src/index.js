@@ -6,7 +6,6 @@ const source = document.querySelector('#tmp').innerHTML.trim();
 
 
 const template = Handlebars.compile(source);
-
 const markup = template(obj);
 
 menuEl.innerHTML = markup;
