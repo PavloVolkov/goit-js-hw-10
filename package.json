@@ -17,9 +17,9 @@
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://goit-js-hw-10-food-service.git/issues"
+    "url": "https://github.com/PavloVolkov/goit-js-hw-10-food-service/issues"
   },
-  "homepage": "https://goit-js-hw-10-food-service.git#readme",
+  "homepage": "https://github.com/PavloVolkov/goit-js-hw-10-food-service#readme",
   "devDependencies": {
     "@babel/core": "^7.11.6",
     "@babel/plugin-proposal-class-properties": "^7.10.4",
