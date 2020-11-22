@@ -1,14 +1,15 @@
-const Handlebars = require("handlebars");
-import obj from '../menu.json';
+import './styles.css';
+import articles from './templates/template.hbs';
+import obj from './menu.json';
+
+console.log(obj);
 
 const menuEl = document.querySelector('.js-menu');
-const source = document.querySelector('#tmp').innerHTML.trim();
 
+const murkup = articles(obj);
 
-const template = Handlebars.compile(source);
-const markup = template(obj);
+menuEl.innerHTML = murkup;
 
-menuEl.innerHTML = markup;
 
 
 const theme = {
