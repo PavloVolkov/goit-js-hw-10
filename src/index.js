@@ -8,7 +8,7 @@ const menuEl = document.querySelector('.js-menu');
 
 const murkup = articles(obj);
 
-menuEl.innerHTML = murkup;
+menuEl.insertAdjacentHTML("beforeend", murkup);
 
 
 
